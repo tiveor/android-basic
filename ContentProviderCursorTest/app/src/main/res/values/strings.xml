@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ContentProviderCursorTest</string>
+    <string name="photo_desc">Photo</string>
+</resources>
