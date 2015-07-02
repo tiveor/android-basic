@@ -5,30 +5,29 @@
     android:layout_height="match_parent"
     android:background="@color/dark_green"
     android:padding="8dip"
-    >
+    android:weightSum="8">
     <TextView android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:text="@string/activity_b_label"
         android:gravity="center_horizontal"
         android:textSize="@dimen/font_large"
         android:textColor="@color/light_green"
         android:paddingBottom="16dip"
-        />
+        android:layout_weight="1" />
 
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_gravity="center_horizontal"
-        >
+        android:layout_weight="1">
         <Button
             android:id="@+id/btn_start_a"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:text="@string/btn_start_a_label"
-            android:onClick="startActivityA"
-            />
+            android:onClick="startActivityA" />
 
         <Button
             android:id="@+id/btn_start_c"
@@ -63,20 +62,22 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:textSize="@dimen/font_medium"
         android:text="@string/lifecycle_method_list"
         android:textColor="@color/light_green"
-        />
+        android:layout_weight="1"
+        android:gravity="bottom" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="160dp">
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:layout_weight="2">
         <TextView
             android:id="@+id/status_view_b"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white"
             android:textColor="@color/black"
             android:padding="4dip"
             android:typeface="monospace"
@@ -85,20 +86,29 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:textSize="@dimen/font_medium"
         android:text="@string/activity_status"
         android:textColor="@color/light_green"
-        />
+        android:layout_weight="1"
+        android:gravity="bottom" />
 
-    <TextView
-        android:id="@+id/status_view_all_b"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:id="@+id/scrollView2"
         android:background="@color/white"
-        android:textColor="@color/black"
-        android:padding="4dip"
-        android:typeface="monospace"
-        />
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/status_view_all_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:padding="4dip"
+            android:typeface="monospace"
+            />
+    </ScrollView>
+
 </LinearLayout>
 
