@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Layout Showcase"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout"
+        android:id="@+id/btn_linear"
+        android:layout_gravity="center_horizontal"
+        android:onClick="loadLinearLayout"
+        android:textSize="22sp"
+        android:background="#FFFFFF"
+        android:padding="20dp"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relative Layout"
+        android:id="@+id/btn_relative"
+        android:layout_gravity="center_horizontal"
+        android:onClick="loadRelativeLayout"
+        android:textSize="22sp"
+        android:background="#FFFFFF"
+        android:padding="20dp"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grid Layout"
+        android:id="@+id/btn_grid"
+        android:layout_gravity="center_horizontal"
+        android:onClick="loadGridLayout"
+        android:textSize="22sp"
+        android:background="#FFFFFF"
+        android:padding="20dp"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Table Layout"
+        android:id="@+id/btn_table"
+        android:layout_gravity="center_horizontal"
+        android:onClick="loadTableLayout"
+        android:textSize="22sp"
+        android:background="#FFFFFF"
+        android:padding="20dp"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tab Layout"
+        android:id="@+id/btn_tab"
+        android:layout_gravity="center_horizontal"
+        android:onClick="loadTabLayout"
+        android:textSize="22sp"
+        android:background="#FFFFFF"
+        android:padding="20dp"
+        android:layout_margin="5dp" />
+</LinearLayout>
