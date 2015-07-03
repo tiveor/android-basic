@@ -8,9 +8,12 @@ Android Basic Course
 
 * LifeCycleTest
 
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/lifecycletest.png)
+| ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/lifecycletest1.png)| ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/lifecycletest2.png)| ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/lifecycletest3.png) |
 
 * LayoutShowcaseTest
+
+| ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/layoutshowcasetest1.png)| ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/layoutshowcasetest2.png)| ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/layoutshowcasetest3.png) |
+
 * GUIShowcaseTest
 * SharedPreferenceTest
 * FileManagerTest
