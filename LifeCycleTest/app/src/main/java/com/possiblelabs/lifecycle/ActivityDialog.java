@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.Window;
 
 /**
- * Created by tivesoft on 6/29/15.
+ * Created by possiblelabs on 6/29/15.
  */
 public class ActivityDialog extends Activity {
     @Override

@@ -15,7 +15,7 @@ import com.possiblelabs.lifecycle.utils.StatusPrinter;
 import com.possiblelabs.lifecycle.utils.StatusTracker;
 
 /**
- * Created by tivesoft on 6/29/15.
+ * Created by possiblelabs on 6/29/15.
  */
 public class Activity3 extends Activity {
 
@@ -28,7 +28,7 @@ public class Activity3 extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_3);
-        mActivityName = getString(R.string.activity_c_label);
+        mActivityName = getString(R.string.activity_3_label);
         mStatusView = (TextView)findViewById(R.id.status_view_c);
         mStatusAllView = (TextView)findViewById(R.id.status_view_all_c);
         mStatusTracker.setStatus(mActivityName, getString(R.string.on_create));

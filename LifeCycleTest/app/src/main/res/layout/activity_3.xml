@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:text="@string/activity_c_label"
+        android:text="@string/activity_3_label"
         android:gravity="center_horizontal"
         android:textSize="@dimen/font_large"
         android:textColor="@color/light_red"
@@ -27,7 +27,7 @@
             android:id="@+id/btn_start_a"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="@string/btn_start_a_label"
+            android:text="@string/btn_start_1_label"
             android:onClick="startActivityA"
             />
 
@@ -35,7 +35,7 @@
             android:id="@+id/btn_start_b"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="@string/btn_start_b_label"
+            android:text="@string/btn_start_2_label"
             android:layout_toRightOf="@id/btn_start_a"
             android:onClick="startActivityB"
             />
@@ -44,7 +44,7 @@
             android:id="@+id/btn_finish_c"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="@string/btn_finish_c_label"
+            android:text="@string/btn_finish_3_label"
             android:layout_toRightOf="@id/btn_start_b"
             android:onClick="finishActivityC"
             />

@@ -13,18 +13,18 @@
     <string name="on_pause">onPause</string>
     <string name="on_resume">onResume</string>
 
-    <string name="activity_a_label">Activity A</string>
-    <string name="activity_b_label">Activity B</string>
-    <string name="activity_c_label">Activity C</string>
+    <string name="activity_1_label">Activity 1</string>
+    <string name="activity_2_label">Activity 2</string>
+    <string name="activity_3_label">Activity 3</string>
 
-    <string name="btn_start_a_label">Start A</string>
-    <string name="btn_start_b_label">Start B</string>
-    <string name="btn_start_c_label">Start C</string>
+    <string name="btn_start_1_label">Start 1</string>
+    <string name="btn_start_2_label">Start 2</string>
+    <string name="btn_start_3_label">Start 3</string>
     <string name="btn_start_dialog_label">Dialog</string>
 
-    <string name="btn_finish_a_label">Finish A</string>
-    <string name="btn_finish_b_label">Finish B</string>
-    <string name="btn_finish_c_label">Finish C</string>
+    <string name="btn_finish_1_label">Finish 1</string>
+    <string name="btn_finish_2_label">Finish 2</string>
+    <string name="btn_finish_3_label">Finish 3</string>
     <string name="btn_finish_dialog_label">Close</string>
 
     <string name="on_activity_created">onActivityCreated</string>
@@ -33,11 +33,11 @@
     <string name="on_destroy_view">onDestroyView</string>
     <string name="on_detach">onDetach</string>
     <string name="on_view_created">onViewCreated</string>
-    <string name="activity_a">Activity A</string>
+    <string name="activity_1">Activity 1</string>
 
-    <string name="start_a">Start A</string>
-    <string name="start_b">Start B</string>
-    <string name="start_c">Start C</string>
+    <string name="start_1">Start 1</string>
+    <string name="start_2">Start 2</string>
+    <string name="start_3">Start 3</string>
 
     <string name="close">Close</string>
     <string name="dialog">Dialog</string>
