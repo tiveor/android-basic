@@ -9,7 +9,7 @@ import android.widget.Button;
 import com.possiblelabs.sharedpreferencetest.util.PreferenceUtil;
 
 /**
- * Created by tivesoft on 6/23/15.
+ * Created by possiblelabs on 6/23/15.
  */
 public class LoginActivity extends Activity {
 
