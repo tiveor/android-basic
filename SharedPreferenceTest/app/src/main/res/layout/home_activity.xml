@@ -9,12 +9,17 @@
         android:text="Home"
         android:id="@+id/textView"
         android:layout_gravity="center_horizontal"
-        android:textSize="50sp" />
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:padding="20dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cerrar Sesión"
         android:id="@+id/btn_logout"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textColor="#000000" />
 </LinearLayout>
