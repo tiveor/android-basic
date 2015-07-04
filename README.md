@@ -19,17 +19,31 @@ Android Basic Course
 ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/guishowcasetest.png)
 
 * SharedPreferenceTest
+
+![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/sharedpreferencestest.gif)
+
 * FileManagerTest
+
 * ContentProviderTest
-* SQLiteTODOTest
+
+* SQLiteTest
+
 * ActiveAndroidTest
+
 * ThreadsTest
+
 * NetworkingTest
+
 * RetrofitTest
-* TweeterTest
+
+* TwitterTest
+
 * VolleyTest
+
 * PicassoTest
+
 * GraphicsTest
+
 * NotificationsTest
 
 
