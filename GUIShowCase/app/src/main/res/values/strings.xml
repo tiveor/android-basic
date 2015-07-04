@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">GUIShowCase</string>
+
+    <string name="checkbox_string">This is a checkbox</string>
+    <string name="im_not_checked_string">I am not checked</string>
+    <string name="hide_checkbox_string">Hide CheckBox</string>
+
+    <string name="change_the_date_string">Change the date</string>
+
+    <string-array name="colors">
+        <item>red</item>
+        <item>orange</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>indigo</item>
+        <item>violet</item>
+        <item>aqua</item>
+        <item>black</item>
+        <item>fuchsia</item>
+        <item>gray</item>
+        <item>grey</item>
+        <item>lime</item>
+        <item>maroon</item>
+        <item>navy</item>
+        <item>olive</item>
+        <item>purple</item>
+        <item>silver</item>
+        <item>teal</item>
+        <item>white</item>
+    </string-array>
+
+
+    <string name="no_choice_made_string">No Choice Made</string>
+    <string name="choice_1_string">Choice 1</string>
+    <string name="choice_2_string">Choice 2</string>
+    <string name="choice_3_string">Choice 3</string>
+
+    <string name="color_prompt">Pick a Color. Any Color.</string>
+    <string name="change_the_time_string">Change the time</string>
+
+    <string name="start_string">Start</string>
+    <string name="stop_string">Stop</string>
+
+    <string name="image_desc_string">Image</string>
+</resources>

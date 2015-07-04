@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="6">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="BUTTON"
+            android:id="@+id/btn_button"
+            android:layout_weight="1"
+            android:singleLine="false"
+            android:onClick="loadButtonActivity" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="TEXTVIEW"
+            android:id="@+id/btn_textview"
+            android:layout_weight="1"
+            android:onClick="loadTextViewActivity" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="RADIO BUTTON"
+            android:id="@+id/btn_radiobutton"
+            android:layout_weight="1"
+            android:onClick="loadRadioButtonActivity" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="CHECKBOX"
+            android:id="@+id/btn_checkbox"
+            android:layout_weight="1"
+            android:onClick="loadCheckboxActivity" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="ALERT DIALOG"
+            android:id="@+id/btn_alertdialog"
+            android:layout_weight="1"
+            android:onClick="loadAlertDialogActivity" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="AUTO COMPLETE TEXTVIEW"
+            android:id="@+id/btn_autocomplete"
+            android:layout_weight="1"
+            android:onClick="loadAutoCompleteActivity" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="DATE PICKER"
+            android:id="@+id/btn_datepicker"
+            android:layout_weight="1"
+            android:onClick="loadDatePickerActivity" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="GALLERY"
+            android:id="@+id/btn_gallery"
+            android:layout_weight="1"
+            android:singleLine="false"
+            android:onClick="loadGalleryActivity" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="LISTVIEW"
+            android:id="@+id/btn_listview"
+            android:layout_weight="1"
+            android:onClick="loadListViewActivity" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="RATINGS BAR"
+            android:id="@+id/btn_ratingsbar"
+            android:layout_weight="1"
+            android:onClick="loadRatingsBarActivity" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="SPINNER"
+            android:id="@+id/btn_spinner"
+            android:layout_weight="1"
+            android:onClick="loadSpinnerActivity" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="TIME PICKER"
+            android:id="@+id/btn_timepicker"
+            android:layout_weight="1"
+            android:onClick="loadTimePickerActivity" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="TOGGLE BUTTON"
+            android:id="@+id/btn_togglebutton"
+            android:layout_weight="1"
+            android:onClick="loadToggleButtonActivity" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="VIEW PAGER"
+            android:id="@+id/btn_viewpager"
+            android:layout_weight="1"
+            android:onClick="loadViewPagerActivity" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="WEB VIEW"
+            android:id="@+id/btn_webview"
+            android:layout_weight="1"
+            android:onClick="loadWebViewActivity" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text=":)"
+            android:id="@+id/button"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text=":)"
+            android:id="@+id/button2"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text=":)"
+            android:id="@+id/button3"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
