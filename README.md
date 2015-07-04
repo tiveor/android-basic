@@ -16,7 +16,7 @@ Android Basic Course
 
 * GUIShowcaseTest
 
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/guishowcase.png)
+![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/guishowcasetest.png)
 
 * SharedPreferenceTest
 * FileManagerTest
