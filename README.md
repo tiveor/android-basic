@@ -19,45 +19,89 @@
 		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/layoutshowcasetest.png"/></td>
 		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/guishowcasetest.png"/></td>
 	</tr>
+	<tr>
+		<th>SharedPreferenceTest</th>
+		<th>FileManagerTest</th>		
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/sharedpreferencetest.png"/></td>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/filemanagertest.png"/></td>
+	</tr>
+	<tr>
+		<th>ContentProviderTest</th>
+		<th>ContentProviderCursorTest</th>		
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/conteprovidertest.png"/></td>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/contentprovidercursortest.png"/></td>
+	</tr>
+	<tr>
+		<th>SQLiteTest</th>
+		<th>NetworkingTest</th>		
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/conteprovidertest.png"/></td>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/contentprovidercursortest.png"/></td>
+	</tr>
+	<tr>
+		<th>GraphicsTest</th>
+		<th>NotificationsTest</th>		
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/conteprovidertest.png"/></td>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/contentprovidercursortest.png"/></td>
+	</tr>
 </table>
 
-HelloWorldTest | LifeCycleTest
-:-------------------------:|:-------------------------:
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/helloworldtest.png) |  ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/lifecycletest.png)
 
-LayoutShowcaseTest | GUIShowcaseTest
-:-------------------------:|:-------------------------:
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/layoutshowcasetest.png) | ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/guishowcasetest.png)
-
-SharedPreferenceTest | FileManagerTest
-:-------------------------:|:-------------------------:
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/sharedpreferencetest.png) | ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/filemanagertest.png)
-
-ContentProviderTest        |  ContentProviderCursorTest
-:-------------------------:|:-------------------------:
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/conteprovidertest.png)  |  ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/contentprovidercursortest.png)
-
-SQLiteTest        |  NetworkingTest
-:-------------------------:|:-------------------------:
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/conteprovidertest.png)  |  ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/contentprovidercursortest.png)
-
-GraphicsTest        |  NotificationsTest
-:-------------------------:|:-------------------------:
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/conteprovidertest.png)  |  ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/contentprovidercursortest.png)
 
 * Basic APPs
 
-CalculatorAPP | Features
-:-------------------------:|:-------------------------:
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/helloworldtest.png) | Facil <br/> dos <br/> tres <br/>
+<table>
+	<tr>
+		<th>CalculatorAPP</th>
+		<th>Features</th>		
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/helloworldtest.png"/></td>
+		<td style="width: 240px"> 
+			<ul>
+				<li>Material Design GUI</li>
+				<li>Using Linear Layouts </li>
+				<li>Programming Logic</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th>CurrencyConverterAPP</th>
+		<th>Features</th>		
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/helloworldtest.png"/></td>
+		<td style="width: 240px"> 
+			<ul>
+				<li>Material Design GUI</li>
+				<li>Using Linear Layouts </li>
+				<li>Programming Logic</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th>UnitConverterAPP</th>
+		<th>Features</th>		
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/helloworldtest.png"/></td>
+		<td style="width: 240px"> 
+			<ul>
+				<li>Material Design GUI</li>
+				<li>Using Linear Layouts </li>
+				<li>Programming Logic</li>
+			</ul>
+		</td>
+	</tr>
+</table>
 
-CurrencyConverterAPP | Features 
-:-------------------------:|:-------------------------:
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/helloworldtest.png) |  ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/lifecycletest.png)
-
-UnitConverter | Features
-:-------------------------:|:-------------------------:
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/helloworldtest.png) |  ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/lifecycletest.png)
 
 # License
 Copyright (c) 2015 - PossibleLabs
