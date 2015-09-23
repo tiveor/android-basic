@@ -1,6 +1,25 @@
 # Android Basic Course 
-Powered by PossibleLabs and HUB7 Entrepreneurship
 
+* Basic Examples
+
+<table>
+	<tr>
+		<th>HelloWorldTest</th>
+		<th>LifeCycleTest</th>
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/helloworldtest.png"/></td>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/lifecycletest.png"/></td>
+	</tr>
+	<tr>
+		<th>LayoutShowcaseTest</th>
+		<th>GUIShowcaseTest</th>		
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/layoutshowcasetest.png"/></td>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/guishowcasetest.png"/></td>
+	</tr>
+</table>
 
 HelloWorldTest | LifeCycleTest
 :-------------------------:|:-------------------------:
@@ -18,18 +37,30 @@ ContentProviderTest        |  ContentProviderCursorTest
 :-------------------------:|:-------------------------:
 ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/conteprovidertest.png)  |  ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/contentprovidercursortest.png)
 
+SQLiteTest        |  NetworkingTest
+:-------------------------:|:-------------------------:
+![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/conteprovidertest.png)  |  ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/contentprovidercursortest.png)
 
-* SQLiteTest
+GraphicsTest        |  NotificationsTest
+:-------------------------:|:-------------------------:
+![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/conteprovidertest.png)  |  ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/contentprovidercursortest.png)
 
-* NetworkingTest
+* Basic APPs
 
-* GraphicsTest
+CalculatorAPP | Features
+:-------------------------:|:-------------------------:
+![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/helloworldtest.png) | Facil <br/> dos <br/> tres <br/>
 
-* NotificationsTest
+CurrencyConverterAPP | Features 
+:-------------------------:|:-------------------------:
+![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/helloworldtest.png) |  ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/lifecycletest.png)
 
+UnitConverter | Features
+:-------------------------:|:-------------------------:
+![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/helloworldtest.png) |  ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/lifecycletest.png)
 
 # License
-Copyright (C) 2015 - PossibleLabs
+Copyright (c) 2015 - PossibleLabs
 
 ```
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -44,5 +75,3 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
-
-
