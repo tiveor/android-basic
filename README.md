@@ -1,6 +1,5 @@
-# android-basic
-
-Android Basic Course 
+# Android Basic Course 
+Powered by PossibleLabs and HUB7 Entrepreneurship
 
 * HelloWorldTest
 
@@ -8,11 +7,11 @@ Android Basic Course
 
 * LifeCycleTest
 
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/lifecycletest.gif)
+![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/lifecycletest.png)
 
 * LayoutShowcaseTest
 
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/layoutshowcasetest.gif)
+![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/layoutshowcasetest.png)
 
 * GUIShowcaseTest
 
@@ -20,27 +19,21 @@ Android Basic Course
 
 * SharedPreferenceTest
 
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/sharedpreferencestest.gif)
-
-* FileManagerTest
+![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/sharedpreferencestest.png)
 
 * ContentProviderTest
 
+Simple Provider            |  Cursor Provider
+:-------------------------:|:-------------------------:
+![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/conteprovidertest.png)  |  ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/contentprovidercursortest.png)
+
+* FileManagerTest
+
+![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/filemanagertest.png)
+
 * SQLiteTest
 
-* ActiveAndroidTest
-
-* ThreadsTest
-
 * NetworkingTest
-
-* RetrofitTest
-
-* TwitterTest
-
-* VolleyTest
-
-* PicassoTest
 
 * GraphicsTest
 
