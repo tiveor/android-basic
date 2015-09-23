@@ -32,7 +32,7 @@ public class ExternalFileWriteReadActivity extends Activity {
             if (!outFile.exists())
                 copyImageToMemory(outFile);
 
-            ImageView imageview = (ImageView) findViewById(R.id.image);
+            ImageView imageview = (ImageView) findViewById(R.id.imageView);
             imageview.setImageURI(Uri.parse("file://" + outFile.getAbsolutePath()));
         }
     }
