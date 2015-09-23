@@ -26,7 +26,7 @@ public class InternalFileWriteReadActivity extends Activity {
 
 		super.onCreate(savedInstanceState);
 
-		setContentView(R.layout.main);
+		setContentView(R.layout.layout);
 		LinearLayout ll = (LinearLayout) findViewById(R.id.linearLayout);
 		if (!getFileStreamPath(fileName).exists()) {
 

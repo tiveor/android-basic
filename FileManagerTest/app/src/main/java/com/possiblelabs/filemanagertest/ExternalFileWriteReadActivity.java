@@ -17,13 +17,13 @@ import android.util.Log;
 import android.widget.ImageView;
 
 public class ExternalFileWriteReadActivity extends Activity {
-    private final String fileName = "painter.png";
+    private final String fileName = "basic.jpg";
     private String TAG = "ExternalFileWriteReadActivity";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.layout);
 
         if (Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState())) {
 
@@ -42,7 +42,7 @@ public class ExternalFileWriteReadActivity extends Activity {
 
             BufferedOutputStream os = new BufferedOutputStream(new FileOutputStream(outFile));
 
-            BufferedInputStream is = new BufferedInputStream(getResources().openRawResource(R.raw.painter));
+            BufferedInputStream is = new BufferedInputStream(getResources().openRawResource(R.raw.basic));
 
             copy(is, os);
 
