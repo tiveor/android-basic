@@ -1,35 +1,23 @@
 # Android Basic Course 
 Powered by PossibleLabs and HUB7 Entrepreneurship
 
-* HelloWorldTest
 
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/helloworldtest.png)
+HelloWorldTest | LifeCycleTest
+:-------------------------:|:-------------------------:
+![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/helloworldtest.png) |  ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/lifecycletest.png)
 
-* LifeCycleTest
+LayoutShowcaseTest | GUIShowcaseTest
+:-------------------------:|:-------------------------:
+![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/layoutshowcasetest.png) | ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/guishowcasetest.png)
 
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/lifecycletest.png)
+SharedPreferenceTest | FileManagerTest
+:-------------------------:|:-------------------------:
+![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/sharedpreferencetest.png) | ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/filemanagertest.png)
 
-* LayoutShowcaseTest
-
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/layoutshowcasetest.png)
-
-* GUIShowcaseTest
-
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/guishowcasetest.png)
-
-* SharedPreferenceTest
-
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/sharedpreferencetest.png)
-
-* ContentProviderTest
-
-Simple Provider            |  Cursor Provider
+ContentProviderTest        |  ContentProviderCursorTest
 :-------------------------:|:-------------------------:
 ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/conteprovidertest.png)  |  ![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/contentprovidercursortest.png)
 
-* FileManagerTest
-
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/filemanagertest.png)
 
 * SQLiteTest
 
