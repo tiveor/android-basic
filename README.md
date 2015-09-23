@@ -19,7 +19,7 @@ Powered by PossibleLabs and HUB7 Entrepreneurship
 
 * SharedPreferenceTest
 
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/sharedpreferencestest.png)
+![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/sharedpreferencetest.png)
 
 * ContentProviderTest
 
