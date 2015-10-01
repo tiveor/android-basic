@@ -1,54 +1,110 @@
-# android-basic
+# Android Basic Course 
 
-Android Basic Course 
+* Basic Examples
 
-* HelloWorldTest
+<table>
+	<tr>
+		<th>HelloWorldTest</th>
+		<th>LifeCycleTest</th>
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/helloworldtest.png"/></td>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/lifecycletest.png"/></td>
+	</tr>
+	<tr>
+		<th>LayoutShowcaseTest</th>
+		<th>GUIShowcaseTest</th>		
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/layoutshowcasetest.png"/></td>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/guishowcasetest.png"/></td>
+	</tr>
+	<tr>
+		<th>SharedPreferenceTest</th>
+		<th>FileManagerTest</th>		
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/sharedpreferencetest.png"/></td>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/filemanagertest.png"/></td>
+	</tr>
+	<tr>
+		<th>ContentProviderTest</th>
+		<th>ContentProviderCursorTest</th>		
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/conteprovidertest.png"/></td>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/contentprovidercursortest.png"/></td>
+	</tr>
+	<tr>
+		<th>SQLiteTest</th>
+		<th>NetworkingTest</th>		
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/conteprovidertest.png"/></td>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/contentprovidercursortest.png"/></td>
+	</tr>
+	<tr>
+		<th>GraphicsTest</th>
+		<th>NotificationsTest</th>		
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/conteprovidertest.png"/></td>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/contentprovidercursortest.png"/></td>
+	</tr>
+</table>
 
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/helloworldtest.png)
 
-* LifeCycleTest
 
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/lifecycletest.gif)
+* Basic APPs
 
-* LayoutShowcaseTest
-
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/layoutshowcasetest.gif)
-
-* GUIShowcaseTest
-
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/guishowcasetest.png)
-
-* SharedPreferenceTest
-
-![alt tag](https://raw.githubusercontent.com/tiveor/android-basic/master/screens/sharedpreferencestest.gif)
-
-* FileManagerTest
-
-* ContentProviderTest
-
-* SQLiteTest
-
-* ActiveAndroidTest
-
-* ThreadsTest
-
-* NetworkingTest
-
-* RetrofitTest
-
-* TwitterTest
-
-* VolleyTest
-
-* PicassoTest
-
-* GraphicsTest
-
-* NotificationsTest
+<table>
+	<tr>
+		<th>CalculatorAPP</th>
+		<th>Features</th>		
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/helloworldtest.png"/></td>
+		<td style="width: 240px"> 
+			<ul>
+				<li>Material Design GUI</li>
+				<li>Using Linear Layouts </li>
+				<li>Programming Logic</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th>CurrencyConverterAPP</th>
+		<th>Features</th>		
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/helloworldtest.png"/></td>
+		<td style="width: 240px"> 
+			<ul>
+				<li>Material Design GUI</li>
+				<li>Using Linear Layouts </li>
+				<li>Programming Logic</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th>UnitConverterAPP</th>
+		<th>Features</th>		
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/helloworldtest.png"/></td>
+		<td style="width: 240px"> 
+			<ul>
+				<li>Material Design GUI</li>
+				<li>Using Linear Layouts </li>
+				<li>Programming Logic</li>
+			</ul>
+		</td>
+	</tr>
+</table>
 
 
 # License
-Copyright (C) 2015 - PossibleLabs
+Copyright (c) 2015 - PossibleLabs
 
 ```
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -63,5 +119,3 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
-
-
