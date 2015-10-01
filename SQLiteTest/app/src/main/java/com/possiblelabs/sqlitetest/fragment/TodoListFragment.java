@@ -43,8 +43,8 @@ public class TodoListFragment extends Fragment implements Constants {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
         dao = new TodoDAO(container.getContext());
         final View rootView = inflater.inflate(R.layout.fragment_todolist, container, false);
         context = rootView.getContext();
@@ -55,7 +55,7 @@ public class TodoListFragment extends Fragment implements Constants {
             @Override
             public void onClick(View view) {
                 Todo todo = new Todo();
-                String[] a = new String[]{"ir a UCATEC", "Prender compu", "opcion 3", "salir de compras", "volver a casa"};
+                String[] a = new String[]{"Ir a clases Android HUB7 Grupo 2", "Prender compu", "opcion 3", "salir de compras", "volver a casa"};
                 int posRandom = (int) (Math.random() * a.length);
                 todo.setText(a[posRandom]);
                 dao.addTodo(todo);
