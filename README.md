@@ -40,7 +40,7 @@
 		<th>NetworkingTest</th>		
 	</tr>
 	<tr>
-		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/conteprovidertest.png"/></td>
+		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/sqlitetest.png"/></td>
 		<td><img src="https://raw.githubusercontent.com/tiveor/android-basic/master/screens/contentprovidercursortest.png"/></td>
 	</tr>
 	<tr>
