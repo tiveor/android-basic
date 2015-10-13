@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AsyncTask</string>
+    <string name="action_settings">Settings</string>
+    <string name="thread">Thread</string>
+    <string name="asynctask">AsyncTask</string>
+    <string name="progress">Progress</string>
+    <string name="no_thread">No Thread</string>
+    <string name="asynctask_dialog">AsyncTask + ProgressDialog</string>
+    <string name="task_finished">Finished Task</string>
+    <string name="task_processing">Processing Task....</string>
+
+    <string name="cancel">Cancel</string>
+</resources>
