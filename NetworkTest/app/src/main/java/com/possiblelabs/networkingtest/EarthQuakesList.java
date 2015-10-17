@@ -27,7 +27,7 @@ public class EarthQuakesList extends ListActivity {
         new LoadEarthQuakes().execute();
     }
 
-    private class LoadEarthQuakes extends AsyncTask<Void, Void, List<String>> {
+    private class LoadEarthQuakes extends AsyncTask<Void, Void, List<EarthQuake>> {
 
         //CREAR CUENTA => http://www.geonames.org/login
         private static final String URL_JSON = "http://api.geonames.org/earthquakesJSON?north=44.1&south=-9.9&east=-22.4&west=55.2&username=tive";
@@ -37,7 +37,7 @@ public class EarthQuakesList extends ListActivity {
         AndroidHttpClient mClient = AndroidHttpClient.newInstance("");
 
         @Override
-        protected List<String> doInBackground(Void... params) {
+        protected List<EarthQuake> doInBackground(Void... params) {
             if ("XML".equalsIgnoreCase(parsingType)) {
                 return loadFromXML();
             } else {
@@ -45,7 +45,7 @@ public class EarthQuakesList extends ListActivity {
             }
         }
 
-        private List<String> loadFromJSON() {
+        private List<EarthQuake> loadFromJSON() {
             HttpGet request = new HttpGet(URL_JSON);
             JSONResponseHandler responseHandler = new JSONResponseHandler();
             try {
@@ -58,7 +58,7 @@ public class EarthQuakesList extends ListActivity {
             return null;
         }
 
-        private List<String> loadFromXML() {
+        private List<EarthQuake> loadFromXML() {
             HttpGet request = new HttpGet(URL_XML);
             XMLResponseHandler responseHandler = new XMLResponseHandler();
             try {
@@ -72,11 +72,11 @@ public class EarthQuakesList extends ListActivity {
         }
 
         @Override
-        protected void onPostExecute(List<String> result) {
+        protected void onPostExecute(List<EarthQuake> result) {
             if (null != mClient)
                 mClient.close();
 
-            setListAdapter(new ArrayAdapter<String>(EarthQuakesList.this, R.layout.list_item, result));
+            setListAdapter(new ArrayAdapter<EarthQuake>(EarthQuakesList.this, R.layout.list_item, result));
         }
     }
 

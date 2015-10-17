@@ -14,17 +14,17 @@ import java.util.List;
 /**
  * Created by possiblelabs on 7/20/15.
  */
-class XMLResponseHandler implements ResponseHandler<List<String>> {
+class XMLResponseHandler implements ResponseHandler<List<EarthQuake>> {
 
     private static final String MAGNITUDE_TAG = "magnitude";
     private static final String LONGITUDE_TAG = "lng";
     private static final String LATITUDE_TAG = "lat";
     private String mLat, mLng, mMag;
     private boolean mIsParsingLat, mIsParsingLng, mIsParsingMag;
-    private final List<String> mResults = new ArrayList<String>();
+    private final List<EarthQuake> mResults = new ArrayList<EarthQuake>();
 
     @Override
-    public List<String> handleResponse(HttpResponse response) throws IOException {
+    public List<EarthQuake> handleResponse(HttpResponse response) throws IOException {
         try {
 
             XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
@@ -79,8 +79,8 @@ class XMLResponseHandler implements ResponseHandler<List<String>> {
         } else if (localName.equals(MAGNITUDE_TAG)) {
             mIsParsingMag = false;
         } else if (localName.equals("earthquake")) {
-            mResults.add(MAGNITUDE_TAG + ":" + mMag + "," + LATITUDE_TAG + ":"
-                    + mLat + "," + LONGITUDE_TAG + ":" + mLng);
+            EarthQuake earthQuake = new EarthQuake(Double.valueOf(mMag), Double.valueOf(mLat), Double.valueOf(mLng));
+            mResults.add(earthQuake);
             mLat = null;
             mLng = null;
             mMag = null;
