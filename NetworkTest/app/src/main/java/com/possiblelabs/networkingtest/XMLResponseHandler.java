@@ -35,7 +35,6 @@ class XMLResponseHandler implements ResponseHandler<List<EarthQuake>> {
             int eventType = xpp.getEventType();
 
             while (eventType != XmlPullParser.END_DOCUMENT) {
-
                 if (eventType == XmlPullParser.START_TAG) {
                     startTag(xpp.getName());
                 } else if (eventType == XmlPullParser.END_TAG) {
@@ -47,6 +46,7 @@ class XMLResponseHandler implements ResponseHandler<List<EarthQuake>> {
             }
             return mResults;
         } catch (XmlPullParserException e) {
+            e.printStackTrace();
         }
         return null;
     }

@@ -8,6 +8,7 @@ public class EarthQuake {
     private double magnitude;
     private double lat;
     private double lng;
+    private String datetime;
 
     public double getDepth() {
         return depth;
@@ -47,6 +48,14 @@ public class EarthQuake {
 
     public void setLng(double lng) {
         this.lng = lng;
+    }
+
+    public String getDatetime() {
+        return datetime;
+    }
+
+    public void setDatetime(String datetime) {
+        this.datetime = datetime;
     }
 
     @Override

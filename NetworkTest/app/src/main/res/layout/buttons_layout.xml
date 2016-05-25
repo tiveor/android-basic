@@ -6,12 +6,18 @@
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <ImageView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:src="@mipmap/ic_launcher" />
+        android:text="Load EartQuakes JSON"
+        android:id="@+id/btn_json"
+        android:onClick="loadEarthquakesJSON"
+        android:background="@drawable/button" />
 
-    <include layout="@layout/buttons_layout"></include>
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load EartQuakes XML"
+        android:id="@+id/btn_xml"
+        android:onClick="loadEarthquakesXML" />
 </LinearLayout>

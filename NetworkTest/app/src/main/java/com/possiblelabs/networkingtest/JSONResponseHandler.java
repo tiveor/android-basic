@@ -21,6 +21,7 @@ public class JSONResponseHandler implements ResponseHandler<List<EarthQuake>> {
     private static final String LATITUDE_TAG = "lat";
     private static final String MAGNITUDE_TAG = "magnitude";
     private static final String DEPTH_TAG = "depth";
+    private static final String DATETIME_TAG = "datetime";
     private static final String EARTHQUAKE_TAG = "earthquakes";
 
     @Override
@@ -29,9 +30,7 @@ public class JSONResponseHandler implements ResponseHandler<List<EarthQuake>> {
         String JSONResponse = new BasicResponseHandler().handleResponse(response);
 
         try {
-
             JSONObject responseObject = (JSONObject) new JSONTokener(JSONResponse).nextValue();
-
             JSONArray earthquakes = responseObject.getJSONArray(EARTHQUAKE_TAG);
 
             for (int idx = 0; idx < earthquakes.length(); idx++) {
@@ -40,9 +39,11 @@ public class JSONResponseHandler implements ResponseHandler<List<EarthQuake>> {
                 double latitude = earthquake.getDouble(LATITUDE_TAG);
                 double longitude = earthquake.getDouble(LONGITUDE_TAG);
                 double depth = earthquake.getDouble(DEPTH_TAG);
+                String datetime = earthquake.getString(DATETIME_TAG);
 
-                EarthQuake earthQuake  = new EarthQuake(magnitude, latitude, longitude);
+                EarthQuake earthQuake = new EarthQuake(magnitude, latitude, longitude);
                 earthQuake.setDepth(depth);
+                earthQuake.setDatetime(datetime);
                 result.add(earthQuake);
             }
         } catch (JSONException e) {
